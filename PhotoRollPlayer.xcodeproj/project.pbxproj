@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF66A1E71B3BCFE40067E614 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF66A1E31B3BCFE40067E614 /* 1.jpg */; };
+		CF66A1E81B3BCFE40067E614 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF66A1E41B3BCFE40067E614 /* 2.jpg */; };
+		CF66A1EA1B3BCFE40067E614 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF66A1E61B3BCFE40067E614 /* 4.jpg */; };
+		CF66A1EC1B3BD06F0067E614 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF66A1EB1B3BD06F0067E614 /* 3.jpg */; };
+		CFCA8CE81B3BCCC60006FDE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CE71B3BCCC60006FDE0 /* main.m */; };
+		CFCA8CEB1B3BCCC60006FDE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CEA1B3BCCC60006FDE0 /* AppDelegate.m */; };
+		CFCA8CEE1B3BCCC60006FDE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */; };
+		CFCA8CF11B3BCCC60006FDE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CEF1B3BCCC60006FDE0 /* Main.storyboard */; };
+		CFCA8CF31B3BCCC60006FDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */; };
+		CFCA8CF61B3BCCC60006FDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */; };
+		CFCA8D021B3BCCF00006FDE0 /* PhotoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CFF1B3BCCF00006FDE0 /* PhotoButton.m */; };
+		CFCA8D031B3BCCF00006FDE0 /* PhotoRollPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8D011B3BCCF00006FDE0 /* PhotoRollPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF66A1E31B3BCFE40067E614 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CF66A1E41B3BCFE40067E614 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CF66A1E61B3BCFE40067E614 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CF66A1EB1B3BD06F0067E614 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CFCA8CE31B3BCCC60006FDE0 /* PhotoRollPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoRollPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCA8CE71B3BCCC60006FDE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFCA8CE91B3BCCC60006FDE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFCA8CEA1B3BCCC60006FDE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFCA8CEC1B3BCCC60006FDE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFCA8CF01B3BCCC60006FDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCA8CF51B3BCCC60006FDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCA8CF71B3BCCC60006FDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCA8CFE1B3BCCF00006FDE0 /* PhotoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoButton.h; sourceTree = "<group>"; };
+		CFCA8CFF1B3BCCF00006FDE0 /* PhotoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoButton.m; sourceTree = "<group>"; };
+		CFCA8D001B3BCCF00006FDE0 /* PhotoRollPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoRollPlayerView.h; sourceTree = "<group>"; };
+		CFCA8D011B3BCCF00006FDE0 /* PhotoRollPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoRollPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCA8CE01B3BCCC60006FDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF66A1E21B3BCFE40067E614 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CF66A1E31B3BCFE40067E614 /* 1.jpg */,
+				CF66A1E41B3BCFE40067E614 /* 2.jpg */,
+				CF66A1EB1B3BD06F0067E614 /* 3.jpg */,
+				CF66A1E61B3BCFE40067E614 /* 4.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFCA8CDA1B3BCCC60006FDE0 = {
+			isa = PBXGroup;
+			children = (
+				CFCA8CE51B3BCCC60006FDE0 /* PhotoRollPlayer */,
+				CFCA8CE41B3BCCC60006FDE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCA8CE41B3BCCC60006FDE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA8CE31B3BCCC60006FDE0 /* PhotoRollPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCA8CE51B3BCCC60006FDE0 /* PhotoRollPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CF66A1E21B3BCFE40067E614 /* Resource */,
+				CFCA8CFD1B3BCCF00006FDE0 /* Classes */,
+				CFCA8CE91B3BCCC60006FDE0 /* AppDelegate.h */,
+				CFCA8CEA1B3BCCC60006FDE0 /* AppDelegate.m */,
+				CFCA8CEC1B3BCCC60006FDE0 /* ViewController.h */,
+				CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */,
+				CFCA8CEF1B3BCCC60006FDE0 /* Main.storyboard */,
+				CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */,
+				CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */,
+				CFCA8CF71B3BCCC60006FDE0 /* Info.plist */,
+				CFCA8CE61B3BCCC60006FDE0 /* Supporting Files */,
+			);
+			path = PhotoRollPlayer;
+			sourceTree = "<group>";
+		};
+		CFCA8CE61B3BCCC60006FDE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA8CE71B3BCCC60006FDE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFCA8CFD1B3BCCF00006FDE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA8CFE1B3BCCF00006FDE0 /* PhotoButton.h */,
+				CFCA8CFF1B3BCCF00006FDE0 /* PhotoButton.m */,
+				CFCA8D001B3BCCF00006FDE0 /* PhotoRollPlayerView.h */,
+				CFCA8D011B3BCCF00006FDE0 /* PhotoRollPlayerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCA8CE21B3BCCC60006FDE0 /* PhotoRollPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCA8CFA1B3BCCC60006FDE0 /* Build configuration list for PBXNativeTarget "PhotoRollPlayer" */;
+			buildPhases = (
+				CFCA8CDF1B3BCCC60006FDE0 /* Sources */,
+				CFCA8CE01B3BCCC60006FDE0 /* Frameworks */,
+				CFCA8CE11B3BCCC60006FDE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoRollPlayer;
+			productName = PhotoRollPlayer;
+			productReference = CFCA8CE31B3BCCC60006FDE0 /* PhotoRollPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCA8CDB1B3BCCC60006FDE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = manyi;
+				TargetAttributes = {
+					CFCA8CE21B3BCCC60006FDE0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = CFCA8CDE1B3BCCC60006FDE0 /* Build configuration list for PBXProject "PhotoRollPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCA8CDA1B3BCCC60006FDE0;
+			productRefGroup = CFCA8CE41B3BCCC60006FDE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCA8CE21B3BCCC60006FDE0 /* PhotoRollPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCA8CE11B3BCCC60006FDE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA8CF61B3BCCC60006FDE0 /* LaunchScreen.storyboard in Resources */,
+				CF66A1EA1B3BCFE40067E614 /* 4.jpg in Resources */,
+				CF66A1E71B3BCFE40067E614 /* 1.jpg in Resources */,
+				CF66A1E81B3BCFE40067E614 /* 2.jpg in Resources */,
+				CFCA8CF31B3BCCC60006FDE0 /* Assets.xcassets in Resources */,
+				CF66A1EC1B3BD06F0067E614 /* 3.jpg in Resources */,
+				CFCA8CF11B3BCCC60006FDE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCA8CDF1B3BCCC60006FDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA8D031B3BCCF00006FDE0 /* PhotoRollPlayerView.m in Sources */,
+				CFCA8CEE1B3BCCC60006FDE0 /* ViewController.m in Sources */,
+				CFCA8CEB1B3BCCC60006FDE0 /* AppDelegate.m in Sources */,
+				CFCA8D021B3BCCF00006FDE0 /* PhotoButton.m in Sources */,
+				CFCA8CE81B3BCCC60006FDE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFCA8CEF1B3BCCC60006FDE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCA8CF01B3BCCC60006FDE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCA8CF51B3BCCC60006FDE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCA8CF81B3BCCC60006FDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCA8CF91B3BCCC60006FDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCA8CFB1B3BCCC60006FDE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoRollPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manyi.PhotoRollPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFCA8CFC1B3BCCC60006FDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoRollPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manyi.PhotoRollPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCA8CDE1B3BCCC60006FDE0 /* Build configuration list for PBXProject "PhotoRollPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA8CF81B3BCCC60006FDE0 /* Debug */,
+				CFCA8CF91B3BCCC60006FDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCA8CFA1B3BCCC60006FDE0 /* Build configuration list for PBXNativeTarget "PhotoRollPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCA8CFB1B3BCCC60006FDE0 /* Debug */,
+				CFCA8CFC1B3BCCC60006FDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCA8CDB1B3BCCC60006FDE0 /* Project object */;
+}
