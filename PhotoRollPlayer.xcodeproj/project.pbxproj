@@ -16,9 +16,9 @@
 		CFCA8CEE1B3BCCC60006FDE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */; };
 		CFCA8CF11B3BCCC60006FDE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CEF1B3BCCC60006FDE0 /* Main.storyboard */; };
 		CFCA8CF31B3BCCC60006FDE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */; };
-		CFCA8CF61B3BCCC60006FDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */; };
 		CFCA8D021B3BCCF00006FDE0 /* PhotoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8CFF1B3BCCF00006FDE0 /* PhotoButton.m */; };
 		CFCA8D031B3BCCF00006FDE0 /* PhotoRollPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCA8D011B3BCCF00006FDE0 /* PhotoRollPlayerView.m */; };
+		D88C5F061B66E86B0043B1D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88C5F051B66E86B0043B1D7 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +34,12 @@
 		CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CFCA8CF01B3BCCC60006FDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFCA8CF51B3BCCC60006FDE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFCA8CF71B3BCCC60006FDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFCA8CFE1B3BCCF00006FDE0 /* PhotoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoButton.h; sourceTree = "<group>"; };
 		CFCA8CFF1B3BCCF00006FDE0 /* PhotoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoButton.m; sourceTree = "<group>"; };
 		CFCA8D001B3BCCF00006FDE0 /* PhotoRollPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoRollPlayerView.h; sourceTree = "<group>"; };
 		CFCA8D011B3BCCF00006FDE0 /* PhotoRollPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoRollPlayerView.m; sourceTree = "<group>"; };
+		D88C5F051B66E86B0043B1D7 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 				CFCA8CEC1B3BCCC60006FDE0 /* ViewController.h */,
 				CFCA8CED1B3BCCC60006FDE0 /* ViewController.m */,
 				CFCA8CEF1B3BCCC60006FDE0 /* Main.storyboard */,
+				D88C5F051B66E86B0043B1D7 /* LaunchScreen.xib */,
 				CFCA8CF21B3BCCC60006FDE0 /* Assets.xcassets */,
-				CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */,
 				CFCA8CF71B3BCCC60006FDE0 /* Info.plist */,
 				CFCA8CE61B3BCCC60006FDE0 /* Supporting Files */,
 			);
@@ -174,10 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFCA8CF61B3BCCC60006FDE0 /* LaunchScreen.storyboard in Resources */,
 				CF66A1EA1B3BCFE40067E614 /* 4.jpg in Resources */,
 				CF66A1E71B3BCFE40067E614 /* 1.jpg in Resources */,
 				CF66A1E81B3BCFE40067E614 /* 2.jpg in Resources */,
+				D88C5F061B66E86B0043B1D7 /* LaunchScreen.xib in Resources */,
 				CFCA8CF31B3BCCC60006FDE0 /* Assets.xcassets in Resources */,
 				CF66A1EC1B3BD06F0067E614 /* 3.jpg in Resources */,
 				CFCA8CF11B3BCCC60006FDE0 /* Main.storyboard in Resources */,
@@ -208,14 +208,6 @@
 				CFCA8CF01B3BCCC60006FDE0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFCA8CF41B3BCCC60006FDE0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFCA8CF51B3BCCC60006FDE0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
